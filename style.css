@@ -1,0 +1,30 @@
+/* #Formulaire */
+#form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 7px;
+}
+
+#form input[type=number] {
+    width: 50%;
+    height: 3vh;
+    padding: 3px 9px;
+    border-radius: 5px;
+    transition: border 1000ms ease;
+}
+
+#form input[type=submit] {
+    background-color: #000;
+    color: #fff;
+    padding: 9px 31px;
+    border-radius: 5px;
+}
+
+#form input[type=submit]:hover {
+    opacity: 0.7;
+}
+
+.pot {
+    border: 2px solid red;
+}
